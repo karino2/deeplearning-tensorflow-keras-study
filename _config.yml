@@ -16,8 +16,8 @@
 title: "詳解ディープラーニング-勉強会のページ"
 description: > # this means to ignore newlines until "baseurl:"
   内輪でやっている「詳解ディープラーニング」の勉強会の資料置き場です。
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://karino2.github.io/deeplearning-tensorflow-keras-study" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/deeplearning-tensorflow-keras-study" # the subpath of your site, e.g. /blog
+url: "https://karino2.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  karino2
 
 # Build settings
