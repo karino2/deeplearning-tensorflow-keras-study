@@ -13,7 +13,8 @@ layout: page
 ## 事前準備
 
 - githubアカウント作成
-- GCPアカウン作成
+- GCPアカウン作成とチュートリアル
+  - [GCE tutorial](http://cs231n.github.io/gce-tutorial/)を先頭から、 「Connect to Your Virtual Instance and Download the Assignment」のsshにつなげる所までやってくること（ダウンロードする所から先はやらなくてOK.ただJupyter Notebookとつなげる所はやっておくとついていくのは楽かも）
 - 実装予定の節の周辺を読んでくる。実装予定は
    - 3.3.2
    - 3.4.3.1
@@ -38,7 +39,7 @@ layout: page
       - 9.1から9.3まで
       - 12くらいを読んでおくと万全
 - [Python Cookbook](http://shop.oreilly.com/product/0636920027072.do)
-  - こちらはさらに学びたい人用
+  - こちらはさらに学びたい人用(事前準備というレベルでは不要です)
   - 辞書的に使う。目次に軽く目を通しておいて、調べた事が出てきたら付近を読む、という感じに使う
   - データ分析のPythonとしては、Pythonチュートリアルとcookbookだけで十分
 
