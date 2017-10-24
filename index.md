@@ -8,9 +8,9 @@ layout: page
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=karino203-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4839962510&linkId=361be02c7a24cdce29613b6a4b052489&bc1=ffffff&lt1=_top&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr">
     </iframe>
 
-# 第一回 環境設定
+このページでは、自分が担当する第一回の環境設定について書いていきます、
 
-## 事前準備
+# 事前準備
 
 - githubアカウント作成
 - GCPアカウン作成とチュートリアル
@@ -23,7 +23,7 @@ layout: page
 - Python知らない人は後述の「Pythonの最低限の知識」くらいはやってあると望ましい（予習が間に合わなかったらサポートしますが）
 
 
-### Pythonの最低限の知識
+## Pythonの最低限の知識
 
 あまり専門的な知識を前提とする気はないので、関数とクラスが書けてリスト内包表記がわかるくらいの人なら、別段予習は必要ありませんが、苦手と思っている人は以下くらいをいやっておくと万全。
 
@@ -44,7 +44,7 @@ layout: page
   - （この勉強会という枠を超えて）データ分析のPythonとしては、Pythonチュートリアルとcookbookだけで十分
 
 
-## 基本コンセプト
+# 基本コンセプト
 
 - プログラミング初心者を想定して、自分が考えるベストのやり方を話す
   - 好きにして良い事も自分が良いと思う一つだけを話す
@@ -58,9 +58,56 @@ layout: page
   - チーム開発は別に学んでください
   - ただし他の分析屋との協業くらいは意識した内容にはします
 
-## 話す事
+# 話す事
 
 - Docker
-- gitとgithub
 - Notebook
+- gitとgithub
+
+# プログラミングの原則
+
+- YAGNI
+- 3回出会ったら考える
+- インタラクティブに使いやすい事
+- ライフサイクルを意識した開発
+- 作業をスクリプトに残す必要性
+   - Jupyter Notebook
+   - Dockerfile
+   - gist
+   - 作業メモ
+
+
+# Docker入門
+
+## 利点
+## プロセスとファイル
+### マウント
+## イメージとwritable
+## コンテナ
+## Dockerfile
+## 分析時のベストプラクティス
+
+- 何をイメージにし、何をmountするべきか
+- 何をホストに置くべきか
+   - wget、ag、git、screen
+   - gistでのセットアップ
+
+
+
+# Jupyter Notebook入門
+
+## Hello Notebook
+
+## 利点
+
+- 作業経過がスクリプトに残る
+- セルによるゆるいモジュール化
+
+## 簡単な内部構造解説（カーネル、ブラウザ）
+
+# データ分析の為のgit入門
+## 分散ソース管理
+## ドキュメントとしてのソース管理
+## データ分析とタグ
+## gitに依存した開発スタイル
 
