@@ -8,7 +8,8 @@ layout: page
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&t=karino203-22&m=amazon&o=9&p=8&l=as1&IS1=1&detail=1&asins=4839962510&linkId=361be02c7a24cdce29613b6a4b052489&bc1=ffffff&lt1=_top&fc1=333333&lc1=0066c0&bg1=ffffff&f=ifr">
     </iframe>
 
-このページでは、自分が担当する第一回の環境設定について書いていきます、
+このページでは、自分が担当する第一回の環境設定について書いていきます。
+あまり書籍とは関係なく、データ分析一般についてどう進めるべきかを話していきます。
 
 # 事前準備
 
@@ -80,11 +81,44 @@ layout: page
 # Docker入門
 
 ## 利点
+
+- 環境の再現性
+- 軽い
+
 ## プロセスとファイル
-### マウント
+
+Unixは大雑把には、ファイルとプロセスを合わせた物と言える。これはDockerを知る上でも重要。
+
+### プロセス
+
+- init
+- forkとexec
+
+### ファイル
+
+- rootfs
+- mount pointとマウント
+
+
 ## イメージとwritable
+
+- union mountによるレイヤー構造
+   - append onlyと削除
+   - 共有
+- 最後にwritableなレイヤー
+- イメージとは何か？
+
 ## コンテナ
+
+- namespaceとcgroupによる分離
+- プロセスのサブツリー
+
 ## Dockerfile
+
+- レイヤーを作る為のスクリプト
+- 書く時の作業手順
+- 何をDockerfileに書くべきか
+
 ## 分析時のベストプラクティス
 
 - 何をイメージにし、何をmountするべきか
@@ -96,7 +130,10 @@ layout: page
 
 # Jupyter Notebook入門
 
+
 ## Hello Notebook
+
+まずは触ってみる。
 
 ## 利点
 
