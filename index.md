@@ -96,7 +96,8 @@ Unixは大雑把には、ファイルとプロセスを合わせた物と言え�
 ### プロセス
 
 - init
-- forkとexec
+- ローダー(ld.so)とLD_LIBRARY_PATH
+- forkとexec（forkは要らないか？）
 
 ### ファイル
 
@@ -123,6 +124,8 @@ Unixは大雑把には、ファイルとプロセスを合わせた物と言え�
 - 書く時の作業手順
 - 何をDockerfileに書くべきか
 - ハッシュとレイヤー
+- apt-getとpip
+   - ubuntuとCentOSとLinux
 
 ## dockerサーバーとdockerコマンド
 
@@ -136,7 +139,7 @@ Unixは大雑把には、ファイルとプロセスを合わせた物と言え�
 
 - 何をイメージにし、何をmountするべきか
 - 何をホストに置くべきか
-   - wget、ag、git、screen
+   - wget、ack、git、screen
    - gistでのセットアップ
 
 
@@ -148,6 +151,7 @@ Unixは大雑把には、ファイルとプロセスを合わせた物と言え�
 
 まずは触ってみる。
 
+- ポートフォワードとは
 - gcloudとポートフォワード、docker run。
 - ホストでscreenを動かし、その中でdockerを動かし、その中でnotebookを動かす
 
@@ -203,4 +207,16 @@ Unixは大雑把には、ファイルとプロセスを合わせた物と言え�
 - S3やDropBox等
 - gist
 
+# Tensorflow入門
+
+
+
+---
+
+- 推奨するフォルダ構成
+  - data
+  - Dockerfile
+  - ソース
+  - ipynb
+  - ライフサイクルを意識する事！
 
