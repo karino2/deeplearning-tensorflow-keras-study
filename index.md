@@ -70,6 +70,7 @@ layout: page
 - まず動かし、頻繁に動かす
    - Notebook
    - ユニットテスト
+   - 動くコードから変える
 - YAGNI
 - 3回出会ったら考える
 - インタラクティブに使いやすい事
@@ -88,6 +89,8 @@ layout: page
 - 軽い仮想環境（のようなもの）
 - 環境の再現性
 - 軽い
+- 本来の用途
+   - データ分析向けじゃない
 
 ## プロセスとファイル
 
@@ -126,13 +129,16 @@ Unixは大雑把には、ファイルとプロセスを合わせた物と言え�
 - ハッシュとレイヤー
 - apt-getとpip
    - ubuntuとCentOSとLinux
+- docker run -tiによるデバッグ
 
 ## dockerサーバーとdockerコマンド
 
 - docker build
 - docker run
+   - オプションit、alloc pseudo tty and keep stdin open
 - docker ps
 - docker rmi
+- docker images
 
 
 ## 分析時のベストプラクティス
@@ -152,6 +158,7 @@ Unixは大雑把には、ファイルとプロセスを合わせた物と言え�
 まずは触ってみる。
 
 - ポートフォワードとは
+   - IPアドレスとポート
 - gcloudとポートフォワード、docker run。
 - ホストでscreenを動かし、その中でdockerを動かし、その中でnotebookを動かす
 
@@ -163,6 +170,7 @@ Unixは大雑把には、ファイルとプロセスを合わせた物と言え�
 ## 簡単な解説
 
 - カーネルとPythonプロセス
+   - セルマジックとカーネルのリスタート
 - セル
 - SIGHUPとscreen
 
