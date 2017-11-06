@@ -259,6 +259,7 @@ gitはまず日常の事だけ（難しいから）
    - マニュアルとベルトコンベア
 - 自動微分
 - Computation Graphは設計図
+- [CS 20SI](https://web.stanford.edu/class/cs20si/syllabus.html) の前半のスライドは入門に良い
 
 ---
 
