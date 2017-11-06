@@ -11,8 +11,10 @@ RUN apt-get update && apt-get install -y \
   python3-dev
   
 # Install tensorflow and basics
-ENV TF_PYTHON_URL https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.1.0-cp35-cp35m-linux_x86_64.whl
-RUN pip3 install $TF_PYTHON_URL \
+# ENV TF_PYTHON_URL https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.1.0-cp35-cp35m-linux_x86_64.whl
+# RUN pip3 install $TF_PYTHON_URL \
+
+RUN pip3 install tensorflow \
     jupyter \
     pandas \
     scikit-learn \
