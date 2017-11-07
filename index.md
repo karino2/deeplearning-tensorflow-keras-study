@@ -259,7 +259,10 @@ gitはまず日常の事だけ（難しいから）
    - マニュアルとベルトコンベア
 - 自動微分
 - Computation Graphは設計図
-- [CS 20SI](https://web.stanford.edu/class/cs20si/syllabus.html) の前半のスライドは入門に良い
+
+## さらに勉強する為に
+- [本家の Getting Started](https://www.tensorflow.org/get_started/get_started) 最初はこれ
+- [CS 20SI](https://web.stanford.edu/class/cs20si/syllabus.html) 次はこれ。前半のスライドは入門に良い。
 
 ---
 
