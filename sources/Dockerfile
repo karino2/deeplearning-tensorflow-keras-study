@@ -28,7 +28,7 @@ RUN pip3 install h5py \
     keras
 
 
-RUN useradd docker -u 1000 -s /bin/bash -m
+RUN useradd docker -u 1001 -s /bin/bash -m
 USER docker
 
 # Set working directory
